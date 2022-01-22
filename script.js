@@ -1,8 +1,5 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-var passwordTypeLong = prompt("What is your desired password length? ");
-var passwordType = prompt("What is your desired character type? ");
-var passwordType = prompt("What are the characters you do not want present? ");
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
@@ -22,3 +19,7 @@ function writePassword() {
 
 
 generateBtn.addEventListener("click", writePassword);
+
+var passwordTypeLong = prompt("What is your desired password length? ");
+var passwordType = prompt("What is your desired character type? ");
+var passwordType = prompt("What are the characters you do not want present? ");
